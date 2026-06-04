@@ -56,9 +56,16 @@ Open **http://localhost:5173**
 
 ### Live demo (GitHub Pages)
 
-After enabling **Pages → Build and deployment → Source: GitHub Actions** in the repo settings, each push to `main` deploys automatically to:
+**URL:** https://mennaa7med.github.io/coffee-site/
 
-**https://mennaa7med.github.io/coffee-site/**
+**One-time setup on GitHub:**
+
+1. Open [coffee-site → Settings → Pages](https://github.com/mennaa7med/coffee-site/settings/pages)
+2. **Build and deployment → Source:** choose **Deploy from a branch**
+3. **Branch:** `gh-pages` · **Folder:** `/ (root)` → **Save**
+4. Open [Actions](https://github.com/mennaa7med/coffee-site/actions) → run **Deploy Live Demo** (or push to `main`)
+
+Wait 2–5 minutes after a green checkmark, then open the live URL.
 
 ### Production build
 
