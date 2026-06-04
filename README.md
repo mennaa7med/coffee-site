@@ -38,8 +38,8 @@ A modern, responsive coffee shop website built with **React**. Converted from a 
 ### Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/brew-morning-coffee.git
-cd brew-morning-coffee
+git clone https://github.com/mennaa7med/coffee-site.git
+cd coffee-site
 npm install
 ```
 
@@ -84,7 +84,7 @@ npm run preview
 
 ## 👤 Author
 
-**Your Name** — [GitHub](https://github.com/YOUR_USERNAME) · [LinkedIn](https://linkedin.com/in/YOUR_PROFILE)
+**Menna Ahmed** — [GitHub](https://github.com/mennaa7med) · [coffee-site](https://github.com/mennaa7med/coffee-site)
 
 ## 📜 License
 
