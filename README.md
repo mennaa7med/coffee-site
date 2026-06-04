@@ -3,6 +3,9 @@
 [![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Vite-6-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
 [![React Router](https://img.shields.io/badge/React_Router-7-CA4245?logo=react-router&logoColor=white)](https://reactrouter.com/)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-GitHub_Pages-2ea44f?style=flat&logo=github)](https://mennaa7med.github.io/coffee-site/)
+
+**🔗 [View Live Demo](https://mennaa7med.github.io/coffee-site/)**
 
 A modern, responsive coffee shop website built with **React**. Converted from a static landing page into a full multi-page web app with routing, animations, and mobile-first design.
 
@@ -50,6 +53,12 @@ npm run dev
 ```
 
 Open **http://localhost:5173**
+
+### Live demo (GitHub Pages)
+
+After enabling **Pages → Build and deployment → Source: GitHub Actions** in the repo settings, each push to `main` deploys automatically to:
+
+**https://mennaa7med.github.io/coffee-site/**
 
 ### Production build
 
