@@ -1,0 +1,68 @@
+export const menuItems = [
+  {
+    id: 1,
+    name: 'Espresso',
+    price: 3.5,
+    category: 'hot',
+    icon: 'fa-mug-hot',
+    description: 'Rich and bold single shot, pulled fresh to order.',
+  },
+  {
+    id: 2,
+    name: 'Cappuccino',
+    price: 4.5,
+    category: 'hot',
+    icon: 'fa-mug-saucer',
+    description: 'Velvety steamed milk layered over espresso.',
+  },
+  {
+    id: 3,
+    name: 'Latte',
+    price: 4.75,
+    category: 'hot',
+    icon: 'fa-coffee',
+    description: 'Smooth espresso with creamy steamed milk.',
+  },
+  {
+    id: 4,
+    name: 'Americano',
+    price: 3.75,
+    category: 'hot',
+    icon: 'fa-fire-flame-curved',
+    description: 'Espresso diluted with hot water for a clean cup.',
+  },
+  {
+    id: 5,
+    name: 'Mocha',
+    price: 5.25,
+    category: 'hot',
+    icon: 'fa-cookie-bite',
+    description: 'Chocolate and espresso blended with steamed milk.',
+  },
+  {
+    id: 6,
+    name: 'Cold Brew',
+    price: 4.25,
+    category: 'cold',
+    icon: 'fa-glass-water',
+    description: 'Slow-steeped for 18 hours — smooth and low acidity.',
+  },
+  {
+    id: 7,
+    name: 'Iced Latte',
+    price: 4.95,
+    category: 'cold',
+    icon: 'fa-ice-cream',
+    description: 'Espresso over ice with cold milk.',
+  },
+  {
+    id: 8,
+    name: 'Affogato',
+    price: 5.5,
+    category: 'specialty',
+    icon: 'fa-star',
+    description: 'Vanilla gelato drowned in a hot espresso shot.',
+  },
+]
+
+export const featuredIds = [2, 3, 6]
