@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="footer__grid">
         <div className="footer__brand">
           <Link to="/">
-            <img src="/image/logo.png" alt="Brew Morning" />
+            <img src={`${import.meta.env.BASE_URL}image/logo.png`} alt="Brew Morning" />
           </Link>
           <p>
             Fresh coffee every morning. Crafted with care, served with warmth.
