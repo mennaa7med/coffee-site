@@ -57,7 +57,7 @@ export default function Home() {
         </div>
 
         <div className="image">
-          <img src="/image/home.png" alt="Fresh coffee cup" className="move" />
+          <img src={`${import.meta.env.BASE_URL}image/home.png`} alt="Fresh coffee cup" className="move" />
         </div>
       </section>
 
