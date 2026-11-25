@@ -61,7 +61,7 @@ export default function About() {
           <BtnLink to="/menu">Try Our Coffee</BtnLink>
         </div>
         <div className="about-story__visual">
-          <img src="/image/home.png" alt="Coffee at Brew Morning" />
+          <img src={`${import.meta.env.BASE_URL}image/home.png`} alt="Coffee at Brew Morning" />
         </div>
       </section>
 
