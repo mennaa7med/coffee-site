@@ -28,7 +28,7 @@ export default function Header() {
     <>
       <header className="header" ref={headerRef}>
         <Link to="/" className="logo" onClick={closeMenu}>
-          <img src="/image/logo.png" alt="Brew Morning" />
+          <img src={`${import.meta.env.BASE_URL}image/logo.png`} alt="Brew Morning" />
         </Link>
 
         <nav className={`navbar ${menuOpen ? 'active' : ''}`}>
